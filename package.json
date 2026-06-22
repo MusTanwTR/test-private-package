@@ -2,6 +2,6 @@
   "name": "test-sbom-private",
   "version": "1.0.0",
   "dependencies": {
-    "@company/internal-lib": "^1.0.0"
+    "@mustanwtr/internal-lib": "^1.0.0"
   }
 }

@@ -1,7 +1,12 @@
 {
   "name": "test-sbom-private",
   "version": "1.0.0",
+  "scripts": {
+    "verify:token": "node scripts/verify-npm-token.js",
+    "preinstall": "node scripts/verify-npm-token.js"
+  },
   "dependencies": {
-    "@mustanwtr/internal-lib": "^1.0.0"
+    "@mustanwtr/internal-lib": "^1.0.1"
   }
 }
+
